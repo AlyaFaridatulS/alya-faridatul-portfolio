@@ -1,0 +1,6 @@
+[data-animate], .reveal { opacity: 0; transform: translateY(24px); transition: opacity var(--transition-slow) ease, transform var(--transition-slow) ease; }
+[data-animate].is-visible, .reveal.is-visible { opacity: 1; transform: translateY(0); }
+.hero-item:nth-child(2) { transition-delay: 100ms; }.hero-item:nth-child(3) { transition-delay: 180ms; }.hero-item:nth-child(4) { transition-delay: 260ms; }.hero-item:nth-child(5) { transition-delay: 340ms; }.hero-item:nth-child(6) { transition-delay: 420ms; }.hero-item:nth-child(7) { transition-delay: 500ms; }
+.project-card.is-filtered { display: none; }.project-card.is-visible { animation: card-in 420ms ease both; }
+@keyframes card-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; transition-duration: 1ms !important; } [data-animate], .reveal { opacity: 1; transform: none; } }

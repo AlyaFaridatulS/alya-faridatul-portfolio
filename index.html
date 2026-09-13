@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alya Faridatul Syafiqoh — Mahasiswi Informatika dan calon profesional teknologi.">
+  <meta name="author" content="Alya Faridatul Syafiqoh">
+  <meta property="og:title" content="Alya Faridatul Syafiqoh — Mahasiswi Informatika">
+  <meta property="og:description" content="Portfolio personal Alya Faridatul Syafiqoh.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#5B162E">
+  <title>Alya Faridatul Syafiqoh — Mahasiswi Informatika</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="data/portfolio.js" defer></script>
+  <script src="js/navigation.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/projects.js" defer></script>
+  <script src="js/interactions.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <a class="skip-link" href="#main-content" data-i18n="skip">Lewati ke konten</a>
+  <header class="site-header" data-header>
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Alya Faridatul Syafiqoh home"><span>AFS.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation menu" data-i18n-attr="aria-label:menuOpen"><span></span><span></span></button>
+      <div class="desktop-nav">
+        <a href="#about" data-i18n="nav.about">Tentang</a><a href="#projects" data-i18n="nav.projects">Proyek</a><a href="#skills" data-i18n="nav.skills">Keahlian</a><a href="#experience" data-i18n="nav.experience">Pengalaman</a><a href="#education" data-i18n="nav.education">Pendidikan</a><a href="#contact" data-i18n="nav.contact">Kontak</a>
+      </div>
+      <a class="nav-contact" href="#contact"><span data-i18n="nav.talk">Mari bicara</span> <span aria-hidden="true">↗</span></a>
+      <div class="language-switcher" role="group" aria-label="Language selector"><button type="button" data-language="id" class="is-active">ID</button><span>/</span><button type="button" data-language="en">EN</button></div>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu-inner container">
+        <p class="eyebrow" data-i18n="nav.navigation">Navigasi</p>
+        <a href="#home" data-i18n="nav.home">Beranda</a><a href="#about" data-i18n="nav.about">Tentang</a><a href="#projects" data-i18n="nav.projects">Proyek</a><a href="#skills" data-i18n="nav.skills">Keahlian</a><a href="#experience" data-i18n="nav.experience">Pengalaman</a><a href="#education" data-i18n="nav.education">Pendidikan</a><a href="#contact" data-i18n="nav.contact">Kontak</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow reveal hero-item" data-i18n="heroLabel">Informatics / Creative technology</p>
+            <h1 id="hero-title" class="reveal hero-item"><span data-i18n="heroGreeting">Halo, saya</span><br><em>Alya Faridatul Syafiqoh</em></h1>
+          <p class="hero-role reveal hero-item" data-i18n-html="heroRole">mahasiswi informatika <span>&amp;</span><br>calon profesional teknologi.</p>
+          <p class="hero-description reveal hero-item" data-i18n="heroDescription"></p>
+          <p class="hero-tagline reveal hero-item" data-i18n="tagline">CONNECT • COMMUNICATE • CREATE IMPACT</p>
+          <div class="hero-actions reveal hero-item"><a class="button button-primary" href="#projects"><span data-i18n="viewWork">Lihat karya</span> <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="#contact" data-i18n="connect">Mari terhubung</a></div>
+          <div class="availability reveal hero-item"><span class="status-dot"></span> <span data-i18n="availability">Sedang belajar dan berkarya</span></div>
+        </div>
+        <div class="hero-visual reveal hero-item" aria-label="Editorial workspace image and profile composition" role="img">
+          <div class="visual-orbit"></div><div class="visual-panel"><div class="panel-top"><span>PROFILE / 001</span><span>2026</span></div><img class="visual-profile-photo" src="images/Foto Alya.jpeg" alt="Foto Alya"><div class="panel-bottom"><span data-i18n="visualCuriosity">Rasa ingin tahu</span><span>→</span><span data-i18n="visualConsistency">Konsistensi</span></div></div>
+          <div class="visual-note note-one" data-i18n="visualLabel">desain dengan tujuan</div><div class="visual-note note-two">01 / 04</div>
+        </div>
+      </div>
+      <div class="hero-footer container"><span data-i18n="scroll">Gulir untuk menjelajah</span><span class="line"></span><span>01 — 09</span></div>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title" data-section>
+      <div class="container about-layout"><div class="section-index" data-animate>01 <span>—</span> <span data-i18n="about.index">TENTANG</span></div><div class="about-content"><div class="about-heading" data-animate><p class="eyebrow" data-i18n="about.eyebrow">Sedikit konteks</p><h2 id="about-title" data-i18n-html="about.title"></h2></div><div class="about-grid"><div class="about-copy" data-animate><p class="lead" data-about-introduction></p><p data-about-story></p></div><aside class="facts" data-animate><p class="eyebrow" data-i18n="about.factsLabel">Fakta singkat</p><dl data-facts></dl></aside></div></div></div>
+    </section>
+
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title" data-section>
+      <div class="container"><div class="section-heading" data-animate><div><div class="section-index">02 <span>—</span> <span data-i18n="projects.index">KARYA PILIHAN</span></div><h2 id="projects-title" data-i18n-html="projects.title"></h2></div><p data-i18n="projects.description"></p></div><div class="project-toolbar" data-animate><div class="filter-list" role="group" aria-label="Filter projects"><button class="filter-button is-active" type="button" data-filter="all" data-i18n="projects.filters.all">Semua karya</button><button class="filter-button" type="button" data-filter="web" data-i18n="projects.filters.web">Web</button><button class="filter-button" type="button" data-filter="python" data-i18n="projects.filters.python">Python</button><button class="filter-button" type="button" data-filter="database" data-i18n="projects.filters.database">Database</button></div><span class="project-count" data-project-count></span></div><div class="project-grid" data-projects><div class="empty-state" data-empty-projects><span>+</span><h3 data-i18n="projects.emptyTitle">Proyek berikutnya ada di sini.</h3><p data-i18n="projects.emptyDescription">Tambahkan detail proyek terverifikasi di data/portfolio.js untuk mengubah bagian ini.</p></div></div></div>
+    </section>
+
+    <section class="section skills-section" id="skills" aria-labelledby="skills-title" data-section><div class="container"><div class="skills-intro" data-animate><div class="section-index">03 <span>—</span> <span data-i18n="skills.index">KEMAMPUAN</span></div><h2 id="skills-title" data-i18n-html="skills.title"></h2></div><div class="skills-list" data-skills data-animate></div></div></section>
+
+    <section class="section timeline-section" id="experience" aria-labelledby="experience-title" data-section><div class="container"><div class="section-heading" data-animate><div><div class="section-index">04 <span>—</span> <span data-i18n="experience.index">PENGALAMAN</span></div><h2 id="experience-title" data-i18n-html="experience.title"></h2></div><p data-i18n="experience.description"></p></div><div class="timeline" data-experience data-animate></div></div></section>
+
+    <section class="section education-section" id="education" aria-labelledby="education-title" data-section><div class="container split-section"><div><div class="section-index" data-animate>05 <span>—</span> <span data-i18n="education.index">PENDIDIKAN</span></div><h2 id="education-title" data-animate data-i18n-html="education.title"></h2></div><div class="education-list" data-education data-animate></div></div></section>
+
+    <section class="section photo-section" id="photos" aria-labelledby="photos-title" data-section><div class="container"><div class="section-heading" data-animate><div><div class="section-index">06 <span>—</span> <span data-i18n="photos.index">FOTO</span></div><h2 id="photos-title" data-i18n-html="photos.title">Cerita dalam<br><em>gambar.</em></h2></div><p data-i18n="photos.description">Beberapa momen yang melengkapi perjalanan dan proses belajar saya.</p></div><div class="photo-grid" data-animate><figure><img src="images/Camping &amp; Bonding.jpeg" alt="Camping dan bonding" loading="lazy"><figcaption>Camping &amp; Bonding</figcaption></figure><figure><img src="images/LO FORTAMA.jpeg" alt="LO Fortama" loading="lazy"><figcaption>LO Fortama</figcaption></figure><figure><img src="images/Seleksi wilayah ON-MIPA.jpeg" alt="Seleksi Wilayah On-MIPA" loading="lazy"><figcaption>Seleksi Wilayah On-MIPA</figcaption></figure><figure><img src="images/Semiar LEGACY.jpeg" alt="Seminar LEGACY" loading="lazy"><figcaption>Seminar LEGACY</figcaption></figure></div></div></section>
+
+    <section class="section organization-section" id="organization" aria-labelledby="organization-title" data-section><div class="container"><div class="section-heading" data-animate><div><div class="section-index">07 <span>—</span> <span data-i18n="organization.index">ORGANISASI</span></div><h2 id="organization-title" data-animate data-i18n-html="organization.title"></h2></div></div><div class="organization-list" data-organizations data-animate></div><div class="photo-grid organization-photo-grid" data-animate><figure><img src="images/Ikatan Pelajar Muhammadiyah.jpeg" alt="Kegiatan Ikatan Pelajar Muhammadiyah" loading="lazy"><figcaption>Ikatan Pelajar Muhammadiyah</figcaption></figure><figure><img src="images/Ikatan Mahasiswa Muhammadiyah.png" alt="Kegiatan Ikatan Mahasiswa Muhammadiyah" loading="lazy"><figcaption>Ikatan Mahasiswa Muhammadiyah</figcaption></figure></div></div></section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title" data-section><div class="container contact-inner"><p class="eyebrow" data-animate data-i18n="contact.eyebrow">Ada peluang atau kolaborasi?</p><h2 id="contact-title" data-animate data-i18n-html="contact.title"></h2><p data-animate data-i18n="contact.description"></p><div class="contact-actions" data-animate>
+
+  <!-- EMAIL -->
+  <a class="button button-primary"
+     data-email-link
+     href="mailto:alyafaridatuls72@gmail.com">
+    <span data-i18n="contact.email">Kirim email</span>
+    <span aria-hidden="true">↗</span>
+  </a>
+
+  <!-- INSTAGRAM -->
+  <a class="button button-outline social-link"
+   data-social-link="instagram"
+   href="https://www.instagram.com/Lyaafrdtl_27"
+   target="_blank"
+   rel="noreferrer">
+
+  <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+    <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+    <circle cx="12" cy="12" r="4"></circle>
+    <circle cx="17.5" cy="6.5" r="1"></circle>
+  </svg>
+
+  <span>@Lyaafrdtl_27</span>
+</a>
+
+  <!-- TIKTOK -->
+ <a class="button button-outline social-link"
+   data-social-link="tiktok"
+   href="https://www.tiktok.com/@Lyaa0602"
+   target="_blank"
+   rel="noreferrer">
+
+  <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M15 4v10.5a4.5 4.5 0 1 1-3.5-4.38"></path>
+    <path d="M15 4c.4 2.1 1.8 3.5 4 3.8"></path>
+  </svg>
+
+  <span>@Lyaa0602</span>
+</a>
+  <!-- LINKEDIN -->
+  <a class="button button-outline social-link"
+   href="https://www.linkedin.com/in/alyafaridatulsyafiqoh/"
+   target="_blank"
+   rel="noreferrer">
+
+  <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+    <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+    <path d="M8 10v6"></path>
+    <path d="M8 7.5v.01"></path>
+    <path d="M12 16v-3.2a2.3 2.3 0 0 1 4.6 0V16"></path>
+    <path d="M12 10v6"></path>
+  </svg>
+
+  <span>Alya Faridatul Syafiqoh</span>
+</a>
+
+  <!-- GITHUB -->
+  <a class="button button-outline social-link"
+   href="https://github.com/AlyaFaridatulS"
+   target="_blank"
+   rel="noreferrer">
+
+  <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M12 3.5a8.5 8.5 0 0 0-2.69 16.56c.43.08.58-.19.58-.41v-1.6c-2.36.51-2.86-1.14-2.86-1.14-.39-.99-.95-1.25-.95-1.25-.77-.53.06-.52.06-.52.85.06 1.3.87 1.3.87.76 1.3 2  .92 2.49.7.08-.55.3-.92.54-1.13-1.89-.22-3.88-.95-3.88-4.22 0-.93.33-1.68.87-2.27-.09-.22-.38-1.08.08-2.25 0 0 .71-.23 2.34.87A8.1 8.1 0 0 1 12 7.43c.72 0 1.45.1 2.13.3 1.63-1.1 2.34-.87 2.34-.87.46 1.17.17 2.03.08 2.25.54.59.87 1.34.87 2.27 0 3.28-2 4-3.9 4.21.31.27.58.8.58 1.62v2.4c0 .23.15.5.59.41A8.5 8.5 0 0 0 12 3.5Z"></path>
+  </svg>
+
+  <span>AlyaFaridatulS</span>
+</a>
+</div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><span>© 2026 Alya Faridatul Syafiqoh</span><span data-i18n="footer">Dibuat dengan HTML, CSS &amp; JavaScript.</span><button class="back-to-top" type="button" aria-label="Back to top">↑</button></div></footer>
+</body>
+</html>
